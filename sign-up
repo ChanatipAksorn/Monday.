@@ -45,11 +45,11 @@ body {font-family: "Raleway", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 
   <nav class="w3-yellow w3-margin-top w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <a href="file:///C:/Users/USER/Desktop/Project%20IS/index.html#photos" class="w3-bar-item w3-button w3-padding-large w3-pale-yellow w3-hover-pale-yellow">
+    <a href="file:///C:/Users/USER/Desktop/Project%20IS/sign-up.html#" class="w3-bar-item w3-button w3-padding-large w3-pale-yellow w3-hover-pale-yellow">
       <i class="fa fa-home w3-xxlarge"></i>
       <p>HOME</p>
     </a>
-    <a href="https://www.facebook.com/totor.thianfak?ref=bookmarks" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-yellow">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-yellow">
       <i class="fa fa-id-card-o w3-xxlarge"></i>
       <p>MY PROFILE</p>
     </a>
@@ -72,7 +72,7 @@ body {font-family: "Raleway", sans-serif}
   <div class="w3-row-padding w3-right">
 
     <div class="w3-third">
-      <label>E-Mail or Phone</label>
+      <label>Username</label>
       <input class="w3-input w3-border" type="text" placeholder="1234@hotmail.com">
     </div>
     <div class="w3-third">
@@ -137,8 +137,9 @@ body {font-family: "Raleway", sans-serif}
   </div>
 
 
+
     <!-- Footer -->
-<div class="w3-right">
+<div class="w3-center">
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -152,7 +153,6 @@ body {font-family: "Raleway", sans-serif}
 </div>
 
 <!-- END PAGE CONTENT -->
-</div>
 
 </body>
 </html>
