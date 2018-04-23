@@ -97,36 +97,41 @@ hr {
     <p>พื้นที่ที่ทุกคนต้องการแบ่งปันเรื่องราวพิเศษ</p>
   </header>
 
-  <!--About News-->
+ <!--About News-->
 
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h3 class="w3-text-black">ข่าว</h3>
+    <h3 class="w3-text-black">ข่าวสาร</h3>
         <hr style="width:200px">
 
-        <div class="w3-row w3-container">
-          <div class="w3-col s6 w3-center">
-            <div class="w3-card-4" style="width:50%">
-              <img src="images/news1.png" alt="Person" style="width:100%">
-              <div class="w3-container">
-                <h3.1><b>โลเเร็มคืออะไร?</b></h3.1>
-                  <p>โลเเร็มเป็นเพียงข้อความหลอกลวงของการพิมพ์...</p>
-                  <p>อ่านต่อ<a href="#" class="w3-bar-item w3-button w3-padding-large w3-circle">
-                    <i class="fa fa-ellipsis-h w3-xlarge"></i></p></a>
-               </div>
-             </div>
-     	     </div>
-
-           <div class="w3-col s6 w3-center">
-             <div class="w3-card-4" style="width:50%">
-               <img src="images/news2.png" alt="Person" style="width:100%">
-               <div class="w3-container">
-                 <h3.1><b>ทำไมเราถึงใช้มัน?</b></h3.1>
-                   <p>มันเป็นความจริงที่ชี้ให้เห็นขึ้นมานานที่ผู้อ่านจะเป็นคนตัดสินใจในการก่อ...</p>
-                   <p>อ่านต่อ<a href="#" class="w3-bar-item w3-button w3-padding-large w3-circle">
-                     <i class="fa fa-ellipsis-h w3-xlarge"></i></p></a>
-                </div>
-              </div>
-      	     </div>
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/news1.png" alt="New York" style="width:50%" class="w3-margin w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>ข่าวหุ้น</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2017</p>
+            <p>แดรี่อยุติธรรมเฟรชชี่ กาญจนาภิเษก สะเด่าธรรมาออร์แกนธรรมา...</p>
+            <button class="w3-button w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/news2.jpg" alt="Paris" style="width:50%" class="w3-margin w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>ปารีส</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>วิกเยอบีร่าเอ๋อเอสเพรสโซฮองเฮา เอ๋อสเตชั่นชิฟฟอนปูอัดปาสเตอร์...</p>
+            <button class="w3-button w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/news3.png" alt="San Francisco" style="width:40%" class="w3-margin w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>ข่าววันนี้</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2018</p>
+            <p>สงบสุขเฝอเซาท์ เอ็นจีโอจังโก้เซ่นไหว้ อาว์ สเก็ตช์ไลฟ์มอยส์เจอไรเซอร์...</p>
+            <button class="w3-button w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">อ่านต่อ</button>
+          </div>
+        </div>
+      </div>
 
         </div>
 
@@ -136,59 +141,52 @@ hr {
             <a href="javascript:void(0)" class="w3-bar-item w3-button w3-theme w3-gray">1</a>
             <a href="javascript:void(0)" class="w3-bar-item w3-button">2</a>
             <a href="javascript:void(0)" class="w3-bar-item w3-button">3</a>
-            <a href="javascript:void(0)" class="w3-bar-item w3-button">4</a>
-            <a href="javascript:void(0)" class="w3-bar-item w3-button">5</a>
             <a href="javascript:void(0)" class="w3-bar-item w3-button">»</a>
           </div>
         </div>
 
-    </div>
 
+<!-- End News-->
 
   <!-- About Friend -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h3 class="w3-text-black">เพื่อนของฉัน</h3>
 
     <hr style="width:200px">
-
-    <div class="w3-row w3-container">
-	     <div class="w3-col s4 w3-center">
-         <div class="w3-card-4" style="width:50%">
-           <img src="images/friend1.png" alt="Person" style="width:100%">
-           <div class="w3-container">
-             <h3.1><b>ไซมอล</b></h3.1>
-             <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-green w3-circle">
-               <i class="fa fa-phone w3-xlarge"></i>
-               <p>ติดต่อ</p></a>
+          <!-- Friend list-->
+          <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <img src="images/friend1.png" alt="New York" style="width:50%" class="w3-margin w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>ลุค สกายวอล์คเกอร์</b></p>
+              <p class="w3-opacity">Fri 27 Nov 2017</p>
+              <p>บาลานซ์โกะ เฟรชชี่แบ็กโฮ แพ็คเด้อพรีเมียมดีเจพาวเวอร์ ...</p>
+              <button class="w3-button w3-circle w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">
+                <i class="fa fa-envelope w3-xlarge"></i></button>
             </div>
           </div>
-  	     </div>
-
-    <div class="w3-col s4 w3-center">
-      <div class="w3-card-4" style="width:50%">
-        <img src="images/friend2.png" alt="Person" style="width:100%">
-        <div class="w3-container">
-          <h3.2><b>เจน</b></h3.2><br>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-green w3-circle">
-            <i class="fa fa-phone w3-xlarge"></i>
-            <p>ติดต่อ</p></a>
+          <div class="w3-third w3-margin-bottom">
+            <img src="images/friend2.png" alt="Paris" style="width:50%" class="w3-margin w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>แอน ไมซ์</b></p>
+              <p class="w3-opacity">Sat 28 Nov 2016</p>
+              <p>แรลลีปาสเตอร์นิวอุตสาหการจังโก้ เวสต์ฟินิกซ์ลิมิตฮัม เหี่ยวย่น ต่อรองวโรกาส ...</p>
+              <button class="w3-button w3-circle w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">
+                <spen class="w3-left"><i class="fa fa-envelope w3-xlarge"></i></spen></button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="images/friend3.png" alt="San Francisco" style="width:50%" class="w3-margin w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>ยามาดะ ชิรุโนะ</b></p>
+              <p class="w3-opacity">Sun 29 Nov 2018</p>
+              <p>สึนามิกิมจิเด้อฮาโลวีนแพตเทิร์น คีตปฏิภาณเหี่ยวย่น การันตีเจ็ตอุปนายก...</p>
+              <button class="w3-button w3-circle w3-yellow w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">
+                <spen class="w3-left"><i class="fa fa-envelope w3-xlarge"></i></spen></button>
+            </div>
           </div>
         </div>
-  	   </div>
-
-    <div class="w3-col s4 w3-center">
-      <div class="w3-card-4" style="width:50%">
-        <img src="images/friend3.png" alt="Person" style="width:100%">
-        <div class="w3-container">
-          <h3.3><b>มาร์ค</b></h3.3><br>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-green w3-circle">
-            <i class="fa fa-phone w3-xlarge"></i>
-            <p>ติดต่อ</p></a>
-          </div>
-        </div>
-  	   </div>
-
-  	  </div>
+        <!-- End Friend list-->
     </div>
 
 
