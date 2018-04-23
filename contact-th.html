@@ -87,6 +87,54 @@ hr {
 
 
 <div class="w3-padding-large" id="main">
+    
+    <!-- Content -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">ติดต่อพวกเรา</h2>
+    <p class="w3-opacity w3-center"><i>ส่งคำติชมถึงเราไหม? ส่งข้อความด้านล่างเลยครับ!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> หาดใหญ่, สงขลา<br>
+        <i class="fa fa-phone" style="width:30px"></i> เบอร์โทร: +66 994876513<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> อีเมลล์: Fin_17@hotmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="ชื่อ" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="อีเมลล์" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="เขียนข้อความ" required name="Message">
+          <button class="w3-button w3-green w3-section w3-right" type="submit">ส่ง</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Google Maps -->
+  <div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
+  <script>
+  function myMap() {
+    myCenter=new google.maps.LatLng(7.006635, 100.499538);
+    var mapOptions= {
+      center:myCenter,
+      zoom:12, scrollwheel: false, draggable: false,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+    var marker = new google.maps.Marker({
+      position: myCenter,
+    });
+    marker.setMap(map);
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  <!-- End Content-->
 
 
 <!-- Footer -->
